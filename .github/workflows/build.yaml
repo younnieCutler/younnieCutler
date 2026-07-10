@@ -30,9 +30,9 @@ jobs:
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           USER_NAME: ${{ github.repository_owner }}
-          BIRTH_YEAR: 1999 # Replace with your actual birth year if desired
-          BIRTH_MONTH: 1   # Replace with your actual birth month
-          BIRTH_DAY: 1     # Replace with your actual birth day
+          BIRTH_YEAR: 2000
+          BIRTH_MONTH: 9
+          BIRTH_DAY: 5
         run: python today.py
       - name: Commit
         run: |-
