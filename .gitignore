@@ -1,0 +1,6 @@
+convert_ascii.py
+build_svg.py
+ascii_art.txt
+# Ignore local python cache
+__pycache__/
+*.pyc
