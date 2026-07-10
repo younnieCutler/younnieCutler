@@ -8,14 +8,28 @@ font-display: swap;
 -webkit-size-adjust: 109%;
 size-adjust: 109%;
 }
-.key {fill: #953800;}
-.value {fill: #0a3069;}
-.addColor {fill: #1a7f37;}
-.delColor {fill: #cf222e;}
-.cc {fill: #c2cfde;}
-text, tspan {white-space: pre;}
+rect.bg { fill: #f6f8fa; }
+.ascii { fill: #24292f; }
+.main-text { fill: #24292f; }
+.key { fill: #953800; }
+.value { fill: #0a3069; }
+.addColor { fill: #1a7f37; }
+.delColor { fill: #cf222e; }
+.cc { fill: #c2cfde; }
+text, tspan { white-space: pre; }
+
+@media (prefers-color-scheme: dark) {
+  rect.bg { fill: #161b22; }
+  .ascii { fill: #c9d1d9; }
+  .main-text { fill: #c9d1d9; }
+  .key { fill: #ffa657; }
+  .value { fill: #a5d6ff; }
+  .addColor { fill: #3fb950; }
+  .delColor { fill: #f85149; }
+  .cc { fill: #616e7f; }
+}
 </style>
-<rect width="985px" height="530px" fill="#f6f8fa" rx="15"/>
+<rect class="bg" width="985px" height="530px" rx="15"/>
 <text x="15" y="30" fill="#24292f" class="ascii">
 <tspan x="15" y="30">                                      </tspan>
 <tspan x="15" y="50">              ,,:,,;;:,               </tspan>
@@ -44,7 +58,7 @@ text, tspan {white-space: pre;}
 <tspan x="15" y="510">################$####?%#############@@</tspan>
 <tspan x="15" y="530">@###################################@@</tspan>
 </text>
-<text x="390" y="30" fill="#24292f">
+<text x="390" y="30" class="main-text">
 <tspan x="390" y="30">j.kim@younnieCutler</tspan> -———————————————————————————————————————————-—-
 <tspan x="390" y="50" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ........................ </tspan><tspan class="value">Mac, Linux</tspan>
 <tspan x="390" y="90" class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> ............................. </tspan><tspan class="value">A-Force Co., Ltd.</tspan>
